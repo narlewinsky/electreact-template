@@ -1,0 +1,11 @@
+<?xml version="1.0"
+      encoding="UTF-8"?>
+<svg width="596px" height="384px"
+     viewBox="0 0 596 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cloud</title>
+    <g id="cloud">
+        <circle fill="white" id="cloud.big" cx="323" cy="192" r="192"></circle>
+        <circle fill="white" id="cloud.middle" cx="131" cy="253" r="131"></circle>
+        <circle fill="white" id="cloud.small" cx="515" cy="303" r="81"></circle>
+    </g>
+</svg>

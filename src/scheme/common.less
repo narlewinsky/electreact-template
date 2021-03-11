@@ -1,0 +1,27 @@
+@import './preset.less';
+@import './animation.less';
+
+body {
+    animation: gradientBackgroundTransformAnimation @scale-speed-low ease-in;
+
+    background: @gradient-background;
+    background-size: @full (@full * 16);
+
+    color: @foreground;
+    padding: @content-padding;
+
+    h1 {
+        font-family: @header-typeface;
+        font-size: @header-font-size;
+        line-height: @header-font-size * 1.62;
+        margin-top: -@paragraph-font-size * 2.62;
+        margin-bottom:  -@paragraph-font-size * 1.62;
+    }
+
+    p {
+        font-family: @paragraph-typeface;
+        font-size: @paragraph-font-size;
+        line-height: @paragraph-font-size * 1.62;
+    }
+
+}
